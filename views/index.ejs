@@ -1,0 +1,36 @@
+<% include header %>
+
+        <% posts.forEach(function(post,index){ %>
+            <div class="page-content inset">
+                <h2>
+                    <a href="/article/<%= post._id %>"><%= post.title %></a>
+                </h2>
+                <div class="clearfix">
+                    <p class="text-info pull-right">
+                        <span>生产日期：<%= post.time.day %></span>
+                        <span>已被<%= post.pv %>人围观</span>
+                    </p>
+                </div>
+
+                <div class=" jumbotron">
+                    <p>
+                        <%- post.content.slice(0,150) %>
+                    </p>
+                </div>
+            </div>
+        <% }) %>
+
+    <div class="btn-toolbar inset clearfix">
+        <div class="pull-right">
+            <div class="btn-group">
+                <% if (!isFirstPage) { %>
+                <a href="?page=<%= page-1 %>" type="button" class="btn btn-default">上一页</a>
+                <% } %>
+                <% if (!isLastPage) { %>
+                <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+                <% } %>
+            </div>
+        </div>
+    </div>
+
+<% include footer %>

@@ -1,0 +1,260 @@
+[Sat May 03 2014 00:05:16 GMT+0800 (中国标准时间)] /
+ReferenceError: F:\nodejs\blog\views\index.ejs:30
+    28|                 <% } %>
+    29|                 <% if (!isLastPage) { %>
+ >> 30|                 <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+    31|                 <% } %>
+    32|             </div>
+    33|         </div>
+
+page is not defined
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1432)
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at F:\nodejs\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\nodejs\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\nodejs\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\nodejs\blog\node_modules\express\lib\response.js:798:7)
+    at F:\nodejs\blog\routes\index.js:19:13
+    at F:\nodejs\blog\models\article.js:85:21
+[Sat May 03 2014 00:05:19 GMT+0800 (中国标准时间)] /
+ReferenceError: F:\nodejs\blog\views\index.ejs:30
+    28|                 <% } %>
+    29|                 <% if (!isLastPage) { %>
+ >> 30|                 <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+    31|                 <% } %>
+    32|             </div>
+    33|         </div>
+
+page is not defined
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1432)
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at F:\nodejs\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\nodejs\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\nodejs\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\nodejs\blog\node_modules\express\lib\response.js:798:7)
+    at F:\nodejs\blog\routes\index.js:19:13
+    at F:\nodejs\blog\models\article.js:85:21
+[Sat May 03 2014 00:06:15 GMT+0800 (中国标准时间)] /
+ReferenceError: F:\nodejs\blog\views\index.ejs:30
+    28|                 <% } %>
+    29|                 <% if (!isLastPage) { %>
+ >> 30|                 <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+    31|                 <% } %>
+    32|             </div>
+    33|         </div>
+
+page is not defined
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1432)
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at F:\nodejs\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\nodejs\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\nodejs\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\nodejs\blog\node_modules\express\lib\response.js:798:7)
+    at F:\nodejs\blog\routes\index.js:19:13
+    at F:\nodejs\blog\models\article.js:85:21
+[Sat May 03 2014 17:55:34 GMT+0800 (中国标准时间)] /
+ReferenceError: F:\nodejs\blog\views\index.ejs:30
+    28|                 <% } %>
+    29|                 <% if (!isLastPage) { %>
+ >> 30|                 <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+    31|                 <% } %>
+    32|             </div>
+    33|         </div>
+
+page is not defined
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1432)
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at F:\nodejs\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\nodejs\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\nodejs\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\nodejs\blog\node_modules\express\lib\response.js:798:7)
+    at F:\nodejs\blog\routes\index.js:20:13
+    at F:\nodejs\blog\models\article.js:85:21
+[Sat May 03 2014 17:55:40 GMT+0800 (中国标准时间)] /
+ReferenceError: F:\nodejs\blog\views\index.ejs:30
+    28|                 <% } %>
+    29|                 <% if (!isLastPage) { %>
+ >> 30|                 <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+    31|                 <% } %>
+    32|             </div>
+    33|         </div>
+
+page is not defined
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1432)
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at F:\nodejs\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\nodejs\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\nodejs\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\nodejs\blog\node_modules\express\lib\response.js:798:7)
+    at F:\nodejs\blog\routes\index.js:20:13
+    at F:\nodejs\blog\models\article.js:85:21
+[Sat May 03 2014 17:55:41 GMT+0800 (中国标准时间)] /
+ReferenceError: F:\nodejs\blog\views\index.ejs:30
+    28|                 <% } %>
+    29|                 <% if (!isLastPage) { %>
+ >> 30|                 <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+    31|                 <% } %>
+    32|             </div>
+    33|         </div>
+
+page is not defined
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1432)
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at F:\nodejs\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\nodejs\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\nodejs\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\nodejs\blog\node_modules\express\lib\response.js:798:7)
+    at F:\nodejs\blog\routes\index.js:20:13
+    at F:\nodejs\blog\models\article.js:85:21
+[Sat May 03 2014 17:55:44 GMT+0800 (中国标准时间)] /
+ReferenceError: F:\nodejs\blog\views\index.ejs:30
+    28|                 <% } %>
+    29|                 <% if (!isLastPage) { %>
+ >> 30|                 <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+    31|                 <% } %>
+    32|             </div>
+    33|         </div>
+
+page is not defined
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1432)
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at F:\nodejs\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\nodejs\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\nodejs\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\nodejs\blog\node_modules\express\lib\response.js:798:7)
+    at F:\nodejs\blog\routes\index.js:20:13
+    at F:\nodejs\blog\models\article.js:85:21
+[Sat May 03 2014 18:07:29 GMT+0800 (中国标准时间)] /
+ReferenceError: F:\nodejs\blog\views\index.ejs:30
+    28|                 <% } %>
+    29|                 <% if (!isLastPage) { %>
+ >> 30|                 <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+    31|                 <% } %>
+    32|             </div>
+    33|         </div>
+
+page is not defined
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1432)
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at F:\nodejs\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\nodejs\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\nodejs\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\nodejs\blog\node_modules\express\lib\response.js:798:7)
+    at F:\nodejs\blog\routes\index.js:20:13
+    at F:\nodejs\blog\models\article.js:85:21
+[Sat May 03 2014 18:08:15 GMT+0800 (中国标准时间)] /
+ReferenceError: F:\nodejs\blog\views\index.ejs:30
+    28|                 <% } %>
+    29|                 <% if (!isLastPage) { %>
+ >> 30|                 <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+    31|                 <% } %>
+    32|             </div>
+    33|         </div>
+
+page is not defined
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1432)
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at F:\nodejs\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\nodejs\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\nodejs\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\nodejs\blog\node_modules\express\lib\response.js:798:7)
+    at F:\nodejs\blog\routes\index.js:20:13
+    at F:\nodejs\blog\models\article.js:85:21
+[Sat May 03 2014 18:08:50 GMT+0800 (中国标准时间)] /
+ReferenceError: F:\nodejs\blog\views\index.ejs:30
+    28|                 <% } %>
+    29|                 <% if (!isLastPage) { %>
+ >> 30|                 <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+    31|                 <% } %>
+    32|             </div>
+    33|         </div>
+
+page is not defined
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1432)
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at F:\nodejs\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\nodejs\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\nodejs\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\nodejs\blog\node_modules\express\lib\response.js:798:7)
+    at F:\nodejs\blog\routes\index.js:20:13
+    at F:\nodejs\blog\models\article.js:85:21
+[Sat May 03 2014 18:09:24 GMT+0800 (中国标准时间)] /
+ReferenceError: F:\nodejs\blog\views\index.ejs:30
+    28|                 <% } %>
+    29|                 <% if (!isLastPage) { %>
+ >> 30|                 <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+    31|                 <% } %>
+    32|             </div>
+    33|         </div>
+
+page is not defined
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1432)
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at F:\nodejs\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\nodejs\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\nodejs\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\nodejs\blog\node_modules\express\lib\response.js:798:7)
+    at F:\nodejs\blog\routes\index.js:21:13
+    at F:\nodejs\blog\models\article.js:85:21
+[Sat May 03 2014 18:09:28 GMT+0800 (中国标准时间)] /
+ReferenceError: F:\nodejs\blog\views\index.ejs:30
+    28|                 <% } %>
+    29|                 <% if (!isLastPage) { %>
+ >> 30|                 <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+    31|                 <% } %>
+    32|             </div>
+    33|         </div>
+
+page is not defined
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1432)
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at F:\nodejs\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\nodejs\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\nodejs\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\nodejs\blog\node_modules\express\lib\response.js:798:7)
+    at F:\nodejs\blog\routes\index.js:21:13
+    at F:\nodejs\blog\models\article.js:85:21
+[Sat May 03 2014 18:16:37 GMT+0800 (中国标准时间)] /
+ReferenceError: F:\nodejs\blog\views\index.ejs:30
+    28|                 <% } %>
+    29|                 <% if (!isLastPage) { %>
+ >> 30|                 <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+    31|                 <% } %>
+    32|             </div>
+    33|         </div>
+
+page is not defined
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1432)
+    at eval (eval at <anonymous> (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:35)
+    at F:\nodejs\blog\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\nodejs\blog\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\nodejs\blog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\nodejs\blog\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\nodejs\blog\node_modules\express\lib\response.js:798:7)
+    at F:\nodejs\blog\routes\index.js:21:13
+    at F:\nodejs\blog\models\article.js:85:21

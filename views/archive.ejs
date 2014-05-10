@@ -1,0 +1,26 @@
+<% include header %>
+
+<div class="page-content inset">
+
+    <div class="col-lg-12">
+        <% posts.forEach(function(post,index){ %>
+        <p class="text-primary">
+            <a href="/article/<%= post._id %>"><%= post.title %></a>
+        </p>
+        <% }) %>
+    </div>
+</div>
+
+<div class="btn-toolbar inset clearfix">
+    <div class="pull-right">
+        <div class="btn-group">
+            <% if (!isFirstPage) { %>
+            <a href="?page=<%= page-1 %>" type="button" class="btn btn-default">上一页</a>
+            <% } %>
+            <% if (!isLastPage) { %>
+            <a href="?page=<%= page+1 %>" type="button" class="btn btn-default">下一页</a>
+            <% } %>
+        </div>
+    </div>
+</div>
+<% include footer %>
